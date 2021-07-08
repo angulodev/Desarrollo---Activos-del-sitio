@@ -1,0 +1,63 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important; }
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important; }
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important; }
+
+
+.contenedor{
+   margin: 20px 20px 20px 30px;
+}
+.full-width-image img {
+  width: 100%;
+}
+.row-cards{
+  margin: 20px 20px 0px 30px;
+}
+.card-deck{
+   margin: 20px 20px 0px 30px;
+}
+.card{
+   border-radius: 8px;
+}
+.card-title{	
+	font-family: 'Barlow', sans-serif;
+	font-size: 26px;  
+	color: var(--primary);
+}
+.card-body li{	
+	list-style: none;
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px;  
+}
+.card-body li::before {
+  content: "• ";
+  color: var(--primary);/* or whatever color you prefer */
+}
+
+
+
+ 
+
+

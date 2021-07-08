@@ -1,0 +1,128 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+/* cambia el color de fondo del menu superior */
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+/* cambia el color de fuente del menu superior */
+.text-dark {
+    color: var(--dark) !important;
+}
+
+
+
+#menulateral-container {
+    min-height: 100vh;
+    min-width: 255px;
+}
+
+#menulateral-container .logo {
+    padding-top: 33px;
+    padding-bottom: 48px;
+    padding-left: 20px;
+}
+
+
+.logoentel {
+    height: 46px;
+    width: 56px;
+}
+
+
+
+#menulateral-container .menu {
+    padding-bottom: 50px;
+    font-family: 'Barlow', medium;
+    font-size: 18px;
+    margin: 0px 0px 0px 20px;
+}
+
+#menulateral-container .active {
+    padding-bottom: 50px;
+    font-family: 'Barlow', medium;
+    font-size: 18px;
+}
+
+
+
+
+.text-menu {
+    font-family: 'Barlow', medium;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--light);
+}
+
+
+.text-menu:hover {
+    text-decoration: none;
+    background-color: var(--light);
+    color: var(--primary);
+    font-family: 'Barlow', medium;
+    margin: 0px 0px 0px 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.dropdown-toggle {}
+
+
+
+.d-flex.menulateral-container.menu>ul li a i :hover:before {
+    color: var(--primary) !important;
+}
+
+
+
+.navbar {
+    padding-top: 49px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Barlow', medium;
+    font-size: 18px;
+}
+
+
+
+.text-titulo {
+    font-family: 'Barlow', medium;
+    font-size: 30px;
+    color: #000;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #menulateral-container {
+        display: none;
+    }
+
+    .stat {
+        border: 0;
+    }
+}

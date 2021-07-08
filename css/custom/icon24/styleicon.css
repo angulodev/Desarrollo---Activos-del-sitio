@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bpskv8');
+  src:  url('fonts/icomoon.eot?bpskv8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bpskv8') format('truetype'),
+    url('fonts/icomoon.woff?bpskv8') format('woff'),
+    url('fonts/icomoon.svg?bpskv8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Inicio:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-Postular:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-Reservar:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-Lista:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-Contacto:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-Politicas:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-Editar:before {
+  content: "\e90a";
+  color: #002eff;
+}
+
+
+.icon-Inicio:hover:before {
+  content: "\e904";
+  color: #002EFF;
+}
+.icon-Postular:hover:before {
+  content: "\e905";
+  color: #002EFF;
+}
+.icon-Reservar:hover:before {
+  content: "\e906";
+  color: #002EFF;
+}
+.icon-Lista:hover:before {
+  content: "\e907";
+  color: #002EFF;
+}
+.icon-Contacto:hover:before {
+  content: "\e908";
+  color: #002EFF;
+}
+.icon-Politicas:hover:before {
+  content: "\e909";
+  color: #002EFF;

@@ -1,0 +1,135 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+
+
+
+
+.card-mail{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark); 
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  /*width: 506px;
+  height: 387px;
+  margin: 0px 0px 0px 20px;*/
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right:auto; 
+}
+
+
+.card-mail1{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark); 
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  /*width: 506px;
+  height: 387px;*/
+  width: 50%;
+  height: 100%;
+
+  margin: 0px 0px 0px 20px;
+  
+}
+
+.form-card-mail{
+  margin: 0px 20px 0px 20px;
+}
+
+.card-mail-title{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;  
+  color: var(--dark);
+  margin: 0px 0px 0px 0px;
+}
+
+.card-mail-title input{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;  
+  color: var(--primary);
+  margin: 0px 0px 0px 0px;
+  outline: none;
+}
+
+
+.card-mail-title::placeholder{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;  
+  color: var(--primary);
+  margin: 0px 0px 0px 0px;
+  outline: none;
+}
+
+
+.card-mail-subtitle{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;  
+  color: var(--dark);
+  margin: 0px 0px 0px 0px;
+}
+
+
+.card-mail-text{
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;  
+  color: var(--dark);
+}
+
+.card-mail-text input{
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;  
+  color: var(--dark);
+  outline: none;
+}
+
+
+.card-mail-text::placeholder{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;  
+  color: var(--dark);
+  outline: none;
+}
+
+
+.card-mail-nombre input{
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--primary);
+  outline: none;
+}
+
+.card-mail-nombre::placeholder{
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--primary);
+  outline: none;
+}

@@ -1,0 +1,101 @@
+﻿<div id="landing" class="page">
+	
+	<header class="header">
+		<div class="bg-main overlay">
+			<div class="overlay"></div>
+			<div class="logo-container">
+				<div class="logo"></div>
+			</div><!-- /.navbar-brand -->
+
+			<div class="header-search">
+				<h2>Escriba el nombre de la persona que desea buscar</h2>
+				<div id="search-landing" class="rounded-search">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="main-card">
+			<div class="img-edificio">
+				<img src="image/torre-entel.png" alt="">
+			</div>
+			<div class="card-info">
+				<div class="info-title">
+					<img src="image/icon_ubicacionEdif.svg" alt="">
+					<span>Corporativo</span>
+				</div>
+				<div class="info-direction">
+					<span>Av. Amunátegui N°20,</span>
+					<span>Santiago, Región Metropolitana</span>
+				</div>
+				<div class="info-button">
+					<div class="go-map">
+						Ir al mapa
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-card">
+			<div class="img-edificio">
+				<img src="image/torre-titanium.png" alt="">
+			</div>
+			<div class="card-info">
+				<div class="info-title">
+					<img src="image/icon_ubicacionEdif.svg" alt="">
+					<span>Titanium</span>
+				</div>
+				<div class="info-direction">
+					<span>Av. Costanera Sur 2760,</span>
+					<span>Las condes, Región Metropolitana</span>
+				</div>
+				<div class="info-button">
+					<div class="go-map">
+						Ir al mapa
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-card">
+			<div class="img-edificio">
+				<img src="image/torre-costanera.png" alt="">
+			</div>
+			<div class="card-info">
+				<div class="info-title">
+					<img src="image/icon_ubicacionEdif.svg  " alt="">
+					<span>Costanera</span>
+				</div>
+				<div class="info-direction">
+					<span>Av. Andres Bello 2711,</span>
+					<span>Las condes, Región Metropolitana</span>
+				</div>
+				<div class="info-button">
+					<div class="go-map">
+						Ir al mapa
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-copyright">
+			<span>Copyright Empresa Nacional de Telecomunicaciones S.A. Todos los derechos reservados.</span>
+		</div>
+		<div class="footer-info">
+			<span>Ayuda</span>
+			<div class="vertical-line">
+
+			</div>
+			<div class="socialMedia">
+				<span>Encuentranos:</span>
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+			</div>
+		</div>
+	</footer>
+
+</div>

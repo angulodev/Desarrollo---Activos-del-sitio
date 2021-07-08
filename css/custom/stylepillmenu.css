@@ -1,0 +1,88 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+
+.nav-pills{
+	border-radius: 21px;  
+	border-color: #CCCCCC !important;
+	position: relative;
+	margin: 40px 20px 40px 35px;
+
+
+
+}
+/*margin: 40px 220px 40px 260px;*/
+
+.nav-pills a{
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px; 
+	color: var(--dark);
+    border: 0.5px solid #CCCCCC !important;
+    box-sizing: border-box  !important;
+    border-radius: 0px !important;
+/*
+      border-left:30px !important;
+    border-right:21px !important;*/
+ 
+
+}
+
+.nav-pills .nav-link.active {
+	color: #fff;
+    background: #002EFF;  
+    position: relative;
+    border: 0.5px solid #002EFF !important;
+
+}
+
+.nav-pills .nav-link:hover {
+    box-shadow: 0 0 6px #CCCCCC;
+}
+
+
+
+
+/*
+.nav-pills .nav-link:hover {
+    color: #fff;
+    background: #002EFF;
+    position: relative;
+    border: 0.5px solid #002EFF !important;
+
+}*/
+
+/*
+.nav-pills .nav-link.active:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #C4C4C4;
+    position: relative;
+    border: 0.5px solid #C4C4C4 !important;
+}
+
+

@@ -1,0 +1,14 @@
+<div id="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<div class="jumbotron">
+				<h1>ERROR</h1>
+				<h2 class="lead">401 No autorizado</h2>
+				<hr>
+				<p>
+					El usuario no tiene las credenciales necesarias para acceder al sitio.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

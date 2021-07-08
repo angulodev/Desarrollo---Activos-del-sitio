@@ -1,0 +1,312 @@
+
+/*@import "fonts.css";*/
+@import "colors.css";
+
+
+@font-face {
+    font-family: "Barlow";
+    src: url("../../fonts/Barlow-Regular.ttf") format("truetype");
+}
+
+body{
+    
+    background: var(--white);
+}
+*{
+    font-family: Barlow!important;
+}
+
+.btn-enviar{
+    background: var(--orange);
+    border-radius: 22.5px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+ 
+    color: var(--white);
+}
+
+.titulo{
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 49px;
+    margin-bottom: 43px;
+    color: var(--black);
+}
+
+
+.divDatosUsuario {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+
+    background-image: url("../../img/tarjeta.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    /*background-size: 12%;*/
+}
+
+.divFormDatosVehiculo {
+    margin-top: 50px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.subTitulo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--black);
+    width: 100%;
+    margin: 20px 0px 10px 20px;
+}
+
+.subTituloBlue{
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--primary);
+    width: 100%;
+    margin: 0px 0px 10px 20px;
+
+}
+
+.labelAntecentes{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+    /*margin-left: 20px;*/
+    margin: 0px 0px 10px 20px;
+}
+
+.inputAntecedentes{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+    margin-left: 5px;
+}
+
+.labelCheckRadio{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: var(--black);
+    padding-left: 20px;
+}
+
+/* radio buttom */
+.form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 0;
+    height: 20px;
+    width: 20px;
+
+    background: var(--white);
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+/*Borde checkbox*/
+input[type=checkbox] {
+    border-radius: 4px;
+}
+
+/*Color Fondo Checkbox*/
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#27AE60;
+}
+
+/*Color Fondo Radio*/
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+background-color:#27AE60;
+}
+
+/*Texto checkbox*/
+.form-check-label {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*Border Input Disbled*/
+input[type="text"]:disabled {
+    background: #dddddd;
+    outline: none;
+}
+
+/*Border Input Disbled*/
+input[type="text"]:read-only {
+    border:none;
+    outline:none;
+    background:none; 
+}
+
+  /*Borde edit Telefono*/
+.inp-edit {
+    border:none;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    outline: none;
+ }
+
+
+
+.posicion{
+    color: #0B610B;
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 48px; */
+    /* width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 9999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgb(175, 173, 173, 1), rgba(175, 173, 173, 1));
+  background: -webkit-radial-gradient(rgba(175, 173, 173, 1), rgba(175, 173, 173, 1));
+  opacity: 0.5;
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

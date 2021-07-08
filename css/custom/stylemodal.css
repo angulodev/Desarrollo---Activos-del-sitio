@@ -1,0 +1,180 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+.modal-ups{
+  border-radius: 8px;  
+  border: 1.3px solid #FF3D00;
+}
+
+.modal{
+    background: #020247b3;
+}
+
+.btn-close-modal{
+  height: 40px;
+  background: #002EFF;
+  border: 1px solid  #002EFF;
+  box-sizing: border-box;
+  border-radius: 20px; 
+  font-family: Barlow SemiBold;  
+  color: var(--light);
+  font-size: 16px;
+}
+
+.btn-close-modal:hover { 
+  background: var(--primary);
+  border: 1px solid  #002EFF;
+  font-family: Barlow SemiBold; 
+  color: var(--light);
+  font-size: 16px;
+}
+
+.btn-nomostrar-modal{
+  height: 40px;
+  background: var(--light);
+  border: 1px solid  var(--light);
+  box-sizing: border-box;
+  border-radius: 20px; 
+  font-family: Barlow SemiBold;  
+  color: var(--dark);
+  font-size: 16px;
+}
+
+.btn-nomostrar-modal:hover { 
+  background: var(--light);
+  border: 1px solid var(--light);
+  font-family: Barlow SemiBold; 
+  color: var(--primary);
+  font-size: 16px;
+}
+
+
+.modal-tips{
+  border-radius: 18px;  
+}
+
+@media (min-width: 768px) {
+  .fullscreen-modal .modal-dialog {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+     .fullscreen-modal .modal-dialog {
+       max-width: 40%;
+     }
+}
+
+@media (min-width: 1200px) {
+  .fullscreen-modal .modal-dialog {
+     width: 50%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .fullscreen-modal .modal-dialog {
+     width: 60%;
+  }
+}
+
+
+@media (min-width: 1800px) {
+  .fullscreen-modal .modal-dialog {
+     width: 1170px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .fullscreen-modal .modal-dialog {
+     width: 1170px;
+  }
+}
+
+.text-modal{
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;  
+  color: var(--dark) !important;
+}
+
+.img-modal{
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0;
+}
+
+.modal-succes{
+  border-radius: 8px;  
+  border: 1.5px solid #27AE60;
+}
+
+/*Modad de confirmacion*/
+.modal-confirm{
+  border-radius: 8px;  
+  border: 1.5px solid #10069F;
+}
+
+.buttonact-modal{
+  width: 150px;
+  height: 45px;
+  background: #002EFF;
+  border: 1px solid #002EFF;
+  box-sizing: border-box;
+  border-radius: 8px; 
+  font-family: Barlow SemiBold;  
+  color: var(--light);
+  font-size: 18px; 
+}
+
+.buttonact-modal:hover { 
+  background: var(--primary);
+  border: 1px solid #002EFF;
+  font-family: Barlow SemiBold; 
+  color: var(--light);
+  font-size: 18px;  
+}
+
+.buttoninact-modal{
+  width: 150px;
+  height: 45px;
+  background: var(--light);
+  border: 1px solid #636467;
+  box-sizing: border-box;
+  border-radius: 8px; 
+  font-family: Barlow SemiBold;  
+  color: #191919;
+  font-size: 18px;  
+}
+
+.buttoninact-modal:hover { 
+  background: var(--light);
+  border: 1px solid #636467;
+  font-family: Barlow SemiBold; 
+  color:  #191919;
+  font-size: 18px;  
+}

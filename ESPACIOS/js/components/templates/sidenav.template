@@ -1,0 +1,5 @@
+<div class="sidenav">
+	<!-- List -->
+	<ul id="sidenav-map-pins" class="list">
+	</ul>
+</div>

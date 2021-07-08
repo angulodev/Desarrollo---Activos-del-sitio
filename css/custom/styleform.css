@@ -1,0 +1,711 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+
+.form-card{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark); 
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  margin: 20px 35px 40px 35px;
+}
+
+
+.card-form-subtitle{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;  
+  color: var(--dark);
+  margin: 0px 0px 0px 0px;
+}
+
+.text-form-card{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;  
+  color: var(--dark);
+}
+
+.form-datos-card{ 
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;  
+}
+
+.form-datos-card::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;
+  /*text-align: center;*/
+}
+
+.form-phone-card{
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;
+  text-decoration-line: none;
+}
+
+.form-phone-card-edit{
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  border:none;
+  border-bottom: 1px solid #CCCCCC !important;
+  outline: none;
+}
+
+
+.form-phone-card::placeholder{
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;
+  /*text-decoration-line: underline;*/
+}
+
+.form-nombre-card{ 
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 22px;  
+  color: var(--primary);
+  outline: none;
+}
+
+.form-nombre-card::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', medium;
+  font-size: 22px;  
+  color: var(--primary);
+  outline: none;
+  /*text-align: center;*/
+}
+
+
+.text-form{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;  
+  color: var(--dark) !important;
+}
+
+.form-check{
+  margin: 20px 35px 20px 20px;
+}
+
+.form-antecedentes{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark);    
+  border-color: #CCCCCC !important;
+  margin: 40px 35px 40px 35px;
+}
+
+.vertical-antecedentes input{
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+}
+
+.btn-search{
+  right: 50%;
+}
+
+.buttons{
+  margin: 40px 35px 40px 0px;
+}
+
+.active-btn{
+  width: 255px;
+  height: 45px;
+  background: #FF3D00;
+  border: 1px solid #FF3D00;
+  box-sizing: border-box;
+  border-radius: 22.5px; 
+  font-family: Barlow SemiBold;  
+  color: var(--light);
+  font-size: 18px;
+  
+}
+.active-btn:hover { 
+  background: var(--light);
+  border: 1px solid #FF3D00;
+  font-family: Barlow SemiBold; 
+  color: #FF3D00; 
+  font-size: 18px;  
+}
+
+.activegray-btn{
+  width: 255px;
+  height: 45px;
+  background: #999999;;
+  border: 1px solid #999999;;
+  box-sizing: border-box;
+  border-radius: 22.5px; 
+  font-family: Barlow SemiBold;  
+  color: var(--light);
+  font-size: 18px;
+  
+}
+
+.activegray-btn:hover { 
+  background: var(--light);
+  border: 1px solid #999999;
+  font-family: Barlow SemiBold; 
+  color:#999999; 
+  font-size: 18px;  
+}
+
+.activeinicio-btn{
+  width: 255px;
+  height: 45px;
+  background: var(--light);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 22.5px; 
+  font-family: Barlow SemiBold;  
+  color: var(--dark);
+  font-size: 18px; 
+}
+
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #27AE60;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px  white;
+}
+
+
+.form-disponible{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: var(--dark);
+  outline: none; 
+  text-align: center;
+}
+
+
+.form-disponible::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: var(--dark);
+  outline: none; 
+  text-align: center;
+}
+
+.form-espera::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #27AE60;
+  /*color: var(--dark) !important;
+  text-align: center;*/
+}
+
+/*clases que pintan los valores input de estacionamientos visitas del dashboard*/
+.form-sidisponible{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #27AE60;
+  outline: none; 
+  text-align: center;
+}
+
+/*clase que pinta los valores del input en verde SI hay puestos disponibles*/
+.form-sidisponible input{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #27AE60;
+  outline: none; 
+  text-align: center;
+}
+
+/*clase de prueba placeholder, solo para ver como quedan pintados los valores SI hay puestos disponibles */
+.form-sidisponible::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #27AE60;
+  outline: none; 
+  text-align: center;
+}
+
+.form-nodisponible{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #E8200C;
+  outline: none; 
+  text-align: center;
+}
+
+/*clase que  pinta los valores del input en rojo NO hay puestos disponibles*/
+.form-nodisponible input{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #E8200C;
+  outline: none; 
+  text-align: center;
+}
+
+/*clase de prueba placeholder, solo para ver como quedan pintados los valores NO hay puestos disponibles */
+.form-nodisponible::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color:#E8200C;
+  outline: none; 
+  text-align: center;
+}
+
+
+/*************Inicio de estilos para el calendario de reservar *********************/
+.form-reservar{   
+  border-radius: 8px; 
+  border-color: #CCCCCC !important;  
+  margin: 20px 30px 20px 30px;
+}
+
+.form-reservar-hora{   
+  border-radius: 8px; 
+  border-color: #CCCCCC !important;
+  margin: 20px 30px 20px 30px;
+  padding-right: 0px;
+}
+
+
+.table td { 
+  border-top: none !important;
+}
+
+/***clases que pintan el boton si la fecha esta disponible*****/    
+.btn-fecha-disponible{  /*clase para el boton fecha disponible, sobre ella se debe hacer click*/
+  width:110px;
+  height: 106.45px;
+  background: #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn-fecha-disponible:hover{
+  box-shadow: 0 0 6px #CCCCCC; /*valor horizontal igual ambos lados, 
+  valor vertical igual arriba abajo, tamaño de la sombra y color*/
+}
+
+.text-fecha-disponible{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+/**IMPORTANTE, text-fecha-disponible, clase que le da color a los valores dentro del 
+input (semana, dia y mes),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-fecha-disponible input{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-fecha-disponible con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (semana, dia y mes), ya que no tengo manera de probar los valores dinamicos**/
+.text-fecha-disponible input::placeholder{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+
+
+/*** Inicio de clases que pintan el boton si la fecha esta ocupada****/
+.btn-fecha-ocupada{   
+  width:110px;
+  height: 106.45px;
+  background: #E8200C;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.text-fecha-ocupada{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**IMPORTANTE, text-fecha-ocupada, clase que le da color a los valores dentro del 
+input (semana, dia y mes),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-fecha-ocupada input{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-fecha-ocupada con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (semana, dia y mes), ya que no tengo manera de probar los valores dinamicos**/
+.text-fecha-ocupada input::placeholder{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+
+
+/*** Inicio de clases que pintan el boton si la fecha esta seleccionada****/
+.btn-fecha-seleccionada{
+  width:110px;
+  height: 106.45px;
+  background: #022CFD;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.text-fecha-seleccionada{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**IMPORTANTE, text-fecha-seleccionada, clase que le da color a los valores dentro del 
+input (semana, dia y mes),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-fecha-seleccionada input{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-fecha-seleccionada con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (semana, dia y mes), ya que no tengo manera de probar los valores dinamicos**/
+.text-fecha-seleccionada input::placeholder{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+
+/***clases que no se deben tocar, dan el tamaño ubicacion y fuente de los inputs dentro
+de los botones de reservar fecha****/
+.semana{
+  border-top-left-radius: 10px;
+  max-width: 30px;
+  height: 30px;
+  padding-left: 5px;
+  font-family: 'Barlow', medium;
+  font-size: 25px;  
+  outline: none;
+}
+
+.dia{
+  max-width: 75px;
+  height: 60px;
+  margin-top: 15px;
+  margin-right: 5px;
+  font-family: 'Barlow', medium;
+  font-size: 70px;  
+  outline: none;
+}
+
+.mes{
+  border-bottom-right-radius: 10px;
+  max-width: 85px;
+  height: 22px;
+  margin-right: 5px;
+  font-family: 'Barlow', medium;
+  font-size: 16px;  
+  outline: none;
+}
+
+
+/*** Inicio clases que pintan el boton si la hora esta disponible*****/
+.btn-hora-disponible{  /*clase para el boton reservar hora disponible, sobre ella se debe hacer click*/
+  width:95px;
+  height: 35px;
+  background: #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn-hora-disponible:hover{
+  box-shadow: 0 0 6px #CCCCCC; /*valor horizontal igual ambos lados, 
+  valor vertical igual arriba abajo, tamaño de la sombra y color*/
+}
+
+.text-hora-disponible{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+/**IMPORTANTE, text-hora-disponible, clase que le da color a los valores dentro del 
+input (hora),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-hora-disponible input{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-fecha-disponible con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (hora), ya que no tengo manera de probar los valores dinamicos**/
+.text-hora-disponible input::placeholder{
+  background: #E5E5E5;
+  font-family: 'Barlow', medium; 
+  color: var(--dark);
+  outline: none;
+}
+
+
+/***clases que pintan el boton si la hora esta ocupadas*****/
+.btn-hora-ocupada{
+  width:95px;
+  height: 35px;
+  background: #E8200C;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.text-hora-ocupada{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**IMPORTANTE, text-hora-ocupada, clase que le da color a los valores dentro del 
+input (hora),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-hora-ocupada input{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-hora-ocupada con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (hora), ya que no tengo manera de probar los valores dinamicos**/
+.text-hora-ocupada input::placeholder{
+  background: #E8200C;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+
+/***clases que pintan el boton si la hora esta seleccionada*****/
+.btn-hora-seleccionada{
+  width:95px;
+  height: 35px;
+  background: #022CFD;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.text-hora-seleccionada{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**IMPORTANTE, text-hora-seleccionado, clase que le da color a los valores dentro del 
+input (hora),importante con el input ya que será la que pinte cuando los 
+valores sean dinamicos**/
+.text-hora-seleccionada input{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+/**SOLO PRUEBA, text-hora-seleccionada con placeholder, solo me sirve para ver como quedarian 
+pintados los valores (hora), ya que no tengo manera de probar los valores dinamicos**/
+.text-hora-seleccionada input::placeholder{
+  background: #022CFD;
+  font-family: 'Barlow', medium; 
+  color: var(--light);
+  outline: none;
+}
+
+
+/***clase que no se debe tocar, da el tamaño ubicacion y fuente de los inputs dentro
+de los botones de reservar hora****/
+.hora{
+  max-width: 92px;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: 2px;
+  font-family: 'Barlow', medium;
+  font-size: 14px;  
+  outline: none;
+}
+/*************Fin de estilos para el calendario de reservar *********************/
+ 
+
+
+.form-card-antecedentes{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark); 
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  margin: 20px 0px 20px 0px;
+}
+
+.form-vertical{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark);    
+  margin: 40px 35px 40px 35px;
+}
+
+
+.vertical-antecedentes select{
+  border-radius: 8px;
+  border-color: #CCCCCC !important;
+}
+
+
+/*Para las listas*/
+.contenedor-descripcion{
+  margin: 20px 30px 20px 35px;
+}
+
+.text-general{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;  
+  color: var(--dark);
+}
+
+/*Para area de recomendaciones y botones de eviar*/
+.card-form-title{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 26px;  
+  color: var(--dark);
+  margin: 0px 0px 0px 35px;
+}
+
+.buttons-textarea{
+  position: absolute;
+  bottom: 0;
+}
+
+.form-card-textarea{
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;  
+  color: var(--dark) !important;
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  list-style: none; 
+  height: 325px;
+}
+
+
+.button-small{
+  font-family: 'Barlow', medium;
+  font-size: 14px;  
+  color: var(--primary);
+  margin: 20px 35px 20px 0px;
+}
+
+.inactive-btn{
+  width: 255px;
+  height: 45px;
+  background: var(--light);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 22.5px; 
+  font-family: Barlow SemiBold;  
+  color: var(--dark);
+  font-size: 18px;  
+}
+
+.inactive-btn:hover { 
+  background: var(--light);
+  border: 1px solid #000;
+  font-family: Barlow SemiBold; 
+  color: var(--dark); 
+  font-size: 18px;  
+}
+
+.contenedor{
+  margin: 20px 35px 40px 35px; 
+} 
+
+/*Posicionamiento del icono buscar, dentro del input correo*/
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .btn-buscar {
+  position: absolute;
+  padding: 10px;
+  cursor: pointer
+}
+
+.right-addon .btn-buscar {
+  right: 0px;
+}
+
+.right-addon input {
+  padding-right: 0px;
+}
+
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}

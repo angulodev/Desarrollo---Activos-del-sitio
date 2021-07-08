@@ -1,0 +1,131 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+.text-table{
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;  
+  color: var(--dark);
+}
+
+.text-table-head{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;  
+  color: var(--dark);
+}
+
+.table-pagination{
+   margin: 0px 0px 70px 30px;
+   font-family: 'Barlow', sans-serif;
+   font-size: 30px;  
+}
+
+
+.pagination> li.active> a {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--light) !important;
+}
+
+.pagination> li a {
+   color: var(--primary) !important;
+}
+
+.pagination{
+   border-radius: 1px; 
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0;
+}
+
+.dataTables_wrapper .dt-buttons {
+  float:right;
+}
+
+.printBtnExcel{
+  padding-left: 35px;
+  background-image: url("../../img/descargar.svg");
+  background-position: 5px;
+  background-repeat: no-repeat;
+  border-color: transparent;
+}
+
+.printBtnImprimir{
+  background-image: url("../../img/imprimir.svg");
+  background-position: 5px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  border-color: transparent;
+}
+
+.printBtnExcel:hover, .printBtnImprimir:hover {
+  background-color: white;
+  border-color: transparent;
+  color: blue;
+}
+
+/*botones y select en columna de tabla*/
+.bt-sm-active{  
+  width:95px;
+  height: 35px;
+  background: var(--primary);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Barlow SemiBold;  
+  color: var(--light);
+}
+
+.bt-sm-active:hover { 
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  font-family: Barlow SemiBold; 
+  color: var(--light); 
+}
+
+.bt-sm-inactive{  
+  width:95px;
+  height: 35px;
+  background: #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Barlow SemiBold;  
+  color: #191919;
+  
+}
+
+.bt-sm-inactive:hover{
+  box-shadow: 0 0 6px #CCCCCC; /*valor horizontal igual ambos lados, 
+  valor vertical igual arriba abajo, tamaño de la sombra y color*/
+}
+
+.form-control-select{
+  height: 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  outline: none;
+}

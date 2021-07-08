@@ -1,0 +1,197 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Barlow', sans-serif;*/
+
+:root {
+    --primary: #002EFF;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 136;
+    color: var(--primary);
+}
+
+
+/* cambia el color de fondo del menu lateral */
+.bg-primary { background-color: var(--primary) !important;}
+
+/* cambia el color de fondo del menu superior */
+.bg-light { background-color: var(--light) !important;}
+
+/* cambia el color de fuente del menu superior */
+.text-dark { color: var(--dark) !important;}
+
+
+.card-deck{
+  margin: 20px 20px 45px 20px;
+}
+
+.card{
+  margin: 0px 20px 45px 20px;
+  border-radius: 8px;
+}
+.card-title{	
+	font-family: 'Barlow', sans-serif;
+	font-size: 26px;  
+	color: var(--dark);
+}
+.card-subtitle{  
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;  
+  color: var(--primary);
+  margin: 20px 0px 5px 0px;
+}
+
+.card-row{  
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px; 
+ /* text-align: center; */
+}
+
+.card-body li{	
+	list-style: none;
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px; 
+}
+
+
+.form-disponible::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: var(--dark);
+  /*text-align: center;*/
+}
+
+.form-espera::placeholder{ 
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;  
+  color: #27AE60;
+  /*color: var(--dark) !important;
+  text-align: center;*/
+}
+
+.card-tips{
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px; 
+  
+}
+
+.shadow:{
+  height: 120px;
+  width: 100%;
+  background-color: red;
+  } 
+
+.boxshadow{
+  box-shadow: 0 0 6px #CCCCCC; /*valor horizontal igual ambos lados, 
+  valor vertical igual arriba abajo, tamaño de la sombra y color*/
+}
+
+.card-ficha{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px; 
+  color: var(--dark); 
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  margin: 20px 35px 40px 35px;
+}
+
+.card-confirm-correct{
+  text-align: center;
+  margin: 20px 35px 40px 35px; 
+}
+
+.card-confirm-incorrect{
+  text-align: center;
+  margin: 20px 35px 40px 35px; 
+}
+
+.card-confirm-title{
+  text-align: center;
+  font-family: 'Barlow', medium;
+  font-size: 18px; 
+  color: #191919;
+}
+
+.card-confirm-text{
+  text-align: center;
+  font-family: 'Barlow', medium;
+  font-size: 18px; 
+  color: #191919;
+}
+
+.card-num-resum{
+  list-style: none;
+  text-align: center;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;
+  background-color: #42E8B4;
+}
+
+.card-num-resum::placeholder{
+  list-style: none;
+  text-align: center;
+  font-family: 'Barlow', medium;
+  font-size: 18px;  
+  color: var(--dark);
+  outline: none;
+}
+
+
+
+#confirm {                /* id padre */
+  position: relative;    /* para poder posicionar el texto de forma absoluta */
+  display: inline-block; /* para que solo ocupe el ancho de la imagen */
+}
+
+.caption {                /* clase hija */
+  position: absolute;    /* posición absolute con respecto al padre */
+  bottom: 0;             /* posicionada en la esquina inferior derecha  margin: 0px 0px 0px 0px; */
+  top: 20px;
+  bottom: 10px;
+  right: 0px;
+  left:0;  
+}
+
+
+.card-information{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;  
+  color: var(--dark) !important;
+  border-radius: 8px;  
+  border-color: #CCCCCC !important;
+  list-style: none; 
+ /* margin: 20px 35px 40px 35px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

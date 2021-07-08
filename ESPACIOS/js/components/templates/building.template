@@ -1,0 +1,55 @@
+<div id="building-component">
+	<div id="nav">
+		<div class="main-nav">
+			<a href="#" class="logo btn-load-landing"></a>
+			<div id="search-component" class="float-right mr-5 mini"></div>
+		</div>
+		<div class="action-nav">
+			<div class="backcontrol">
+				<a href="#" class="btn-load-landing"><i class="fas fa-arrow-left"></i></a>
+				<h1>{buildingName}</h1>
+			</div>
+			<div id="common-spaces-navigation" class="nav-collapse hidden"></div> 
+			<!-- 2D/3D -->
+			<div class="btn--change-perspective">
+				<button class="btn--change-perspective__control checked hidden" data-view="2D">Vista 3D</button>
+			</div>
+		</div>
+	</div>
+	<div id="map" class="hidden">
+		<div class="my-location">
+			<button id="btn-my-location" class="my-location__btn">Mi ubicación</button>
+		</div>
+		<div id="building-controls" class="building-controls">
+			<a href="javascript:void(0);" data-direction={upDirection} class="building-controls__btn">
+				<i class="fas fa-chevron-up"></i>
+			</a>
+			<a href="javascript:void(0);" data-direction={downDirection} class="building-controls__btn">
+				<i class="fas fa-chevron-down"></i>
+			</a>
+			<ul class="floor-tags"></ul>
+		</div>
+		<div id="surroundings" class="layout">
+			<img src="/sites/SpacePlannig/Paginas/image/surroundings-{id}.png">
+		</div>
+		<div id="building" class="layout" data-id="{id}">
+			{floors}
+		</div>
+	</div>
+	<div id="map-navigation" class="map-navigation__btn-group hidden">
+		<div class="map-navigation__btn-wrap">
+			<a href="#" class="map-navigation__btn btn-change-floor up" data-direction="{upDirection}"><i class="fas fa-caret-up"></i>
+            <span>Subir Piso</span></a>
+		</div>
+		<div class="map-navigation__btn-wrap">
+			<a href="#" class="map-navigation__btn btn-show-building"><i class="fas fa-layer-group"></i></a>
+		</div>
+		<div class="map-navigation__btn-wrap">
+			<a href="#" class="map-navigation__btn btn-change-floor down" data-direction="{downDirection}"><i class="fas fa-caret-down"></i><br/><span>Bajar Piso</span></a>
+		</div>
+	</div>
+	<div id="leyend" class="leyend hidden">
+		<ul class="pin-list"></ul>
+		<p id="flexible-dialog"><span id="flexible-count">...</span> colaborador(es) con puesto flexible. Ver <a href="javascript:void(0);">aquí</a>.</p>
+	</div>
+</div>

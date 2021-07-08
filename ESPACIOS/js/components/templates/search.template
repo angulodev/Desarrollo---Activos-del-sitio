@@ -1,0 +1,10 @@
+<div id="search" class="rounded-search">
+	<form class="form" autocomplete="off">
+		<div id="search-input" class="px-5">
+			<input id="autocomplete-input" placeholder="Buscar Persona" title="Busca por nombre, apellido o correo electrónico"></input>
+		</div>
+		<div id="autocomplete-list" class="autocomplete hidden empty">
+			<ul class="list"></ul>
+		</div>
+	</form>
+</div>
